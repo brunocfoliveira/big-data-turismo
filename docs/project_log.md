@@ -44,3 +44,29 @@ The final processed dataset was exported as:
 `data/processed/features_country_level.csv`
 
 This dataset will be used for exploratory analysis, visualisation, clustering and the Streamlit dashboard.
+
+## Step 4 — Exploratory data analysis
+
+An initial exploratory analysis was performed using the processed dataset `features_country_level.csv`.
+
+The analysis included:
+
+- Null value summary;
+- Descriptive statistics;
+- EPI band distribution;
+- Top 10 countries by EPI score;
+- Top 10 countries by international departures;
+- Top 10 countries by outbound tourism expenditure;
+- Top 10 countries by total inbound trips;
+- Correlations between EPI score and tourism indicators.
+
+Generated outputs:
+
+- `outputs/tables/null_summary_features.csv`
+- `outputs/tables/descriptive_statistics.csv`
+- `outputs/tables/epi_band_distribution.csv`
+- `outputs/tables/top_10_epi.csv`
+- `outputs/tables/top_10_departures.csv`
+- `outputs/tables/top_10_expenditure.csv`
+- `outputs/tables/top_10_inbound_trips.csv`
+- `outputs/tables/correlation_with_epi_score.csv`
